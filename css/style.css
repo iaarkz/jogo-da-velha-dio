@@ -7,8 +7,15 @@
 body {
   text-align: center;
 }
+
+h1 {
+  margin: 2rem;
+  text-transform: uppercase;
+}
+
 .quadrado {
   background: #eee;
+  border-radius: 0.625rem;
   color: #eee;
   cursor: pointer;
   display: inline-block;
@@ -16,7 +23,7 @@ body {
   margin: 0.3125rem;
   padding: 2.5rem;
   text-align: center;
-  width: 3.125rem;
+  width: 5.125rem;
 }
 .jogador,
 .vencedor {
@@ -24,7 +31,7 @@ body {
   margin-top: 0.625rem;
 }
 button {
-  background-color: #eee;
+  background-color: #25ccf7;
   border-radius: 6.25rem;
   border: none;
   cursor: pointer;
@@ -36,10 +43,10 @@ button {
 }
 
 button:hover {
-  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.1);
   transform: translateY(-3px);
 }
 button:active {
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   transform: translateY(0px);
 }
